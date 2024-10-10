@@ -1,0 +1,68 @@
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item img {
+    width: 24px; /* Adjust this size as needed */
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.nav-item span {
+    font-size: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #000000;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.task-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.task p {
+    font-size: 11px;
+    color: #fff; /* Added for better visibility */
+}
+
+.task button {
+    padding: 5px 10px; /* Adjust button padding */
+    color: #000000;
+    background-color: aqua;
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add rounded corners to button */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.task button:hover {
+    background-color: #00ffff; /* Change color on hover */
+}
+
+.hidden {
+    display: none;
+}
+
